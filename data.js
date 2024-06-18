@@ -1,0 +1,58 @@
+let shopItemsData = [
+  {
+    id: 'D1',
+    name: 'Flower Print',
+    price: 25,
+    desc: 'Lorem ipsum dolor sit amet. Style dresses style summer.',
+    img: 'images/FlowerPrint.png',
+  },
+  {
+    id: 'D2',
+    name: 'Dark Red Color',
+    price: 35,
+    desc: 'Lorem ipsum dolor sit amet. Style dresses style summer.',
+    img: 'images/DarkRed.png',
+  },
+  {
+    id: 'D3',
+    name: 'Light Green',
+    price: 55,
+    desc: 'Lorem ipsum dolor sit amet. Style dresses style summer.',
+    img: 'images/LightGreen.png',
+  },
+  {
+    id: 'D4',
+    name: 'Long Pink',
+    price: 65,
+    desc: 'Lorem ipsum dolor sit amet. Style dresses style summer.',
+    img: 'images/LongPink.png',
+  },
+  {
+    id: 'D5',
+    name: 'Red Dotted',
+    price: 45,
+    desc: 'Lorem ipsum dolor sit amet. Style dresses style summer.',
+    img: 'images/RedDotted.png',
+  },
+  {
+    id: 'D6',
+    name: 'Light Pink',
+    price: 35,
+    desc: 'Lorem ipsum dolor sit amet. Style dresses style summer.',
+    img: 'images/LightPink.png',
+  },
+  {
+    id: 'D7',
+    name: 'Beige Color',
+    price: 45,
+    desc: 'Lorem ipsum dolor sit amet. Style dresses style summer.',
+    img: 'images/BeigeColor.png',
+  },
+  {
+    id: 'D8',
+    name: 'Red Vine Long',
+    price: 55,
+    desc: 'Lorem ipsum dolor sit amet. Style dresses style summer.',
+    img: 'images/RedVineLong.png',
+  },
+];
