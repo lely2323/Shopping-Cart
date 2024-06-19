@@ -1,9 +1,10 @@
 let shop = document.getElementById('shop');
 
 let basket = JSON.parse(localStorage.getItem('data')) || [];
+items=shopItemsData;
 
 let generateShop = () => {
-  return (shop.innerHTML = shopItemsData
+  return (shop.innerHTML = items
     .map((x) => {
       let { id, name, price, desc, img } = x;
       let search = basket.find((x) => x.id === id) || [];
@@ -97,3 +98,13 @@ let calculation = () => {
   cartIcon.innerHTML = basket.map((x) => x.item).reduce((x, y) => x + y, 0);
 };
 calculation();
+
+let search = (keyword) => {
+  if(keyword){
+      keyword = keyword.toLowerCase();
+      items = items.filter(item => item.name.toLowerCase().includes(keyword));
+    }else{
+      items=shopItemsData;
+    }
+    generateShop();
+}

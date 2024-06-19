@@ -55,4 +55,11 @@ let shopItemsData = [
     desc: 'Lorem ipsum dolor sit amet. Style dresses style summer.',
     img: 'images/RedVineLong.png',
   },
+    {
+    id: 'D8',
+    name: 'Red Vine Long',
+    price: 55,
+    desc: 'Lorem ipsum dolor sit amet. Style dresses style summer.',
+    img: 'images/RedVineLong.png',
+  },
 ];
